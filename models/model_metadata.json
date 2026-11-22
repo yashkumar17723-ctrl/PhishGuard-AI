@@ -1,0 +1,15 @@
+{
+    "model_name": "TF-IDF + Logistic Regression",
+    "model_type": "text-only",
+    "training_dataset": "V1 training + verified-deduplicated Nazario additions",
+    "training_records": 5528,
+    "validation_accuracy": 0.9916,
+    "legacy_test_accuracy": 0.9916,
+    "temporal_phishing_recall": 0.8523,
+    "probability_calibrated": false,
+    "classification_threshold": 0.5,
+    "sklearn_version": "1.6.1",
+    "pandas_version": "2.3.3",
+    "numpy_version": "2.1.3",
+    "python_version": "3.13.18 (main, Oct 26 2026, 15:28:15) [GCC 13.3.0]"
+}
